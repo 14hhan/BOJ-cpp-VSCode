@@ -46,3 +46,10 @@ stdout이 아닌 파일을 통해 output을 받는 경우
     // "${fileDirname}/sample_output.txt",
     ```
 2. `"${fileDirname}/sample_output.txt",` 부분의 파일명과 경로를 상황에 맞게 변경
+
+## 언어 standard 설정하기
+`.vscode/c_cpp_properties.json`에서 아래 부분 상황에 맞게 변경
+```json
+"cStandard": "c11",
+"cppStandard": "c++17",
+```
