@@ -10,10 +10,26 @@ VSCode를 사용하여 C++로 BOJ문제 풀기
   - `vadimcn.vscode-lldb`
 
 ## 시작하기
-터미널에 아래와 같이 입력하면 boj-cpp 폴더 안에 입력한 번호를 이름으로 하는 폴더와 cpp 파일을 생성함
-```zsh
-> ./boj-cpp.sh
-```
+1. 터미널에 아래와 같이 입력
+    ```zsh
+    > ./boj-cpp.sh
+    ```
+2. 아래와 같이 나타나면 BOJ 문제 번호 입력
+    ```zsh
+    > boj number?
+    ```
+3. boj-cpp 폴더 내 아래와 같은 내용의 `<BOJ_NUMBER>/<BOJ_NUMBER>.cpp` 생성
+    ```cpp
+    //boj <BOJ_NUMBER>
+
+    #include <iostream>
+    using namespace std;
+
+    int main(){
+        
+        return 0;
+    }
+    ```
 
 ## Build
 `command + shift + B` (MacOS)
